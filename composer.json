@@ -147,7 +147,9 @@
             "drush/contrib/{$name}": ["type:drupal-drush"]
         },
 		"patches": {
-		
+			"drupsl/panels": {
+				"Panels fix php 7.2": "https://www.drupal.org/files/issues/2923286-13.patch"
+			}
         }
     }
 }
