@@ -1,0 +1,53 @@
+uuid:
+  -
+    value: e014ffb2-1b7b-4ccc-9fef-1e944e7be4bf
+langcode:
+  -
+    value: en
+preferred_langcode:
+  -
+    value: en
+preferred_admin_langcode: {  }
+name:
+  -
+    value: admin
+mail:
+  value: default@default.be
+timezone:
+  -
+    value: Europe/Brussels
+status:
+  value: '1'
+created:
+  -
+    value: '2018-03-22T15:02:20+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2018-03-22T16:27:35+00:00'
+    format: 'Y-m-d\TH:i:sP'
+access:
+  -
+    value: '2018-03-22T16:27:36+00:00'
+    format: 'Y-m-d\TH:i:sP'
+login:
+  -
+    value: '2018-03-22T15:09:20+00:00'
+    format: 'Y-m-d\TH:i:sP'
+init:
+  -
+    value: default@default.be
+roles:
+  - authenticated
+  - administrator
+default_langcode:
+  -
+    value: true
+commerce_remote_id: {  }
+user_picture: {  }
+_content_sync:
+  entity_type: user
+  entity_dependencies: {  }
+pass:
+  value: $S$El7kmeXpBZIUQuh94IkiHbP4HylF.0.Ql5abCA6QqWKdpdJyO9MO
+  pre_hashed: true

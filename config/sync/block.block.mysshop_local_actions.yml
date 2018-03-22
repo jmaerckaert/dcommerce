@@ -1,0 +1,20 @@
+uuid: 880fcc11-d45e-4f3c-a94b-0861ee757539
+langcode: en
+status: true
+dependencies:
+  theme:
+    - mysshop
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: mysshop_local_actions
+theme: mysshop
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

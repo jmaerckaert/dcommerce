@@ -1,0 +1,26 @@
+uuid: dfbeb61c-cfd4-4a63-b033-c8f8bb9c8bf4
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - sshop
+_core:
+  default_config_hash: gWbF7k4NUOFiEtv9p_QxfgpeM3e6UXuJPiPxNPhbuQw
+id: sshop_main_menu
+theme: sshop
+region: navigation
+weight: -8
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

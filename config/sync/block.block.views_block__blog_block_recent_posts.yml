@@ -1,0 +1,32 @@
+uuid: 0d5e47ca-7f86-4bb9-ad5c-c42e61e485b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.blog
+  module:
+    - system
+    - views
+  theme:
+    - sshop
+_core:
+  default_config_hash: CUfErOHdPoxggoSpKB13z1Y_pfuqppf-vUv85j6T920
+id: views_block__blog_block_recent_posts
+theme: sshop
+region: sidebar_second
+weight: -9
+provider: null
+plugin: 'views_block:blog-block_recent_posts'
+settings:
+  id: 'views_block:blog-block_recent_posts'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '/blog*'
+    negate: false
+    context_mapping: {  }

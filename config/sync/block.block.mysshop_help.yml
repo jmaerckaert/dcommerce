@@ -1,0 +1,22 @@
+uuid: accb257b-523c-4ece-85e9-6120b90e3a53
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - mysshop
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: mysshop_help
+theme: mysshop
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

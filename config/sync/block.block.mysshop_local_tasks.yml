@@ -1,0 +1,22 @@
+uuid: 104fd011-4a13-4408-a1c1-84b9a6b5afd0
+langcode: en
+status: true
+dependencies:
+  theme:
+    - mysshop
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: mysshop_local_tasks
+theme: mysshop
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

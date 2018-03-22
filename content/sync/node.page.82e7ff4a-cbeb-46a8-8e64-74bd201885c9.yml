@@ -1,0 +1,68 @@
+uuid:
+  -
+    value: 82e7ff4a-cbeb-46a8-8e64-74bd201885c9
+langcode:
+  -
+    value: en
+type:
+  -
+    target_id: page
+    target_type: node_type
+    target_uuid: d98d1e8b-d13e-4748-a6b2-66552265651a
+revision_timestamp:
+  -
+    value: '2018-03-22T16:28:12+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_uid:
+  -
+    target_type: user
+    target_uuid: e014ffb2-1b7b-4ccc-9fef-1e944e7be4bf
+revision_log: {  }
+status:
+  -
+    value: true
+title:
+  -
+    value: test2
+uid:
+  -
+    target_type: user
+    target_uuid: e014ffb2-1b7b-4ccc-9fef-1e944e7be4bf
+created:
+  -
+    value: '2018-03-22T16:28:01+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2018-03-22T16:28:12+00:00'
+    format: 'Y-m-d\TH:i:sP'
+promote:
+  -
+    value: false
+sticky:
+  -
+    value: false
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+path:
+  -
+    alias: null
+    pid: null
+    langcode: en
+body:
+  -
+    value: "<p>test 2</p>\r\n"
+    format: basic_html
+    processed: '<p>test 2</p>'
+    summary: ''
+    summary_processed: ''
+_content_sync:
+  entity_type: node
+  entity_dependencies:
+    user:
+      - user.user.e014ffb2-1b7b-4ccc-9fef-1e944e7be4bf
+      - user.user.e014ffb2-1b7b-4ccc-9fef-1e944e7be4bf

@@ -1,0 +1,22 @@
+uuid: 57d32c92-e50d-40d7-82e1-bcc06a36c84b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mysshop
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: mysshop_powered
+theme: mysshop
+region: navigation
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,23 @@
+uuid: f23a399f-6d60-44bd-b43e-f1d6461dddac
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.review
+    - field.storage.comment.comment_body
+  module:
+    - text
+_core:
+  default_config_hash: chme7vun6372ExnFtuPSYvf_154eZTZpvNwHCKXrWHw
+id: comment.review.comment_body
+field_name: comment_body
+entity_type: comment
+bundle: review
+label: 'Your review'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
